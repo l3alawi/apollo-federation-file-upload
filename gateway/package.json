@@ -1,0 +1,15 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^0.13.2",
+    "apollo-server-koa": "^2.11.0",
+    "koa": "^2.11.0"
+  }
+}
